@@ -1,0 +1,30 @@
+*{/*Codigos universales de css*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+body{
+    background: rgb(244, 244, 128);
+}
+img{
+    width: 900px;
+}
+#slider{
+    width: 945px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+#slider ul{
+    list-style: none;
+    width: 2850px;
+    display: flex;
+    animation: slide 15s infinite alternate;
+}
+@keyframes slide{
+    0%{margin-left: 0px;}
+    50%{margin-left: 0px;}
+
+    60%{margin-left: -1000px;}
+    100%{margin-left: -1000px;}
+}
